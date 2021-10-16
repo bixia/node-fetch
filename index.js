@@ -1,7 +1,8 @@
 const fetch = require("node-fetch")
+require("dotenv").config()
 
-let API_ID = "BuH2xUjR"
-let API_SECRET = "5c97116ab38a6504007bf4d2cb9c9e6128c09ac6"
+let API_ID = process.env.API_ID
+let API_SECRET = process.env.API_SECRET
 
 let base_url = `https://restapi.nftscan.com/gw/token?apiKey=${API_ID}&apiSecret=${API_SECRET}`
 
