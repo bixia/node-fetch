@@ -1,0 +1,19 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "a test project about node-fetch as well as the nft-scan ap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nft",
+    "scan"
+  ],
+  "author": "samczsun",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.0.0",
+    "ethers":"^5.4.7"
+  }
+}
